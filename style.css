@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+
+
+
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Rubik Scribble;
+    background-color: blanchedalmond;
+}
+
+main h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+span#value{
+    font-size: 3rem;
+    margin: 2rem ;
+    color: crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.btnItem{
+    margin: 0rem 2rem;
+}
+
+
+button{
+   
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+button:hover{background-color: none;}
+
+button:nth-child(1){
+    background-color: coral;
+}
+button:nth-child(2){
+    background-color: rgb(27, 61, 10);
+}
+button:nth-child(3){
+    background-color: rgb(220, 9, 195);
+}
+
+.btnItem{
+    padding-top: 2rem;
+}
